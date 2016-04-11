@@ -1,0 +1,286 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'bson' ]
+2 info using npm@2.14.4
+3 info using node@v4.1.1
+4 verbose install initial load of C:\dev\design-charter\dev\package.json
+5 warn package.json aurelia-beginner-kit-es2016@1.0.0-beta.1.0.1 No repository field.
+6 warn package.json aurelia-beginner-kit-es2016@1.0.0-beta.1.0.1 No README data
+7 verbose installManyTop reading scoped package data from C:\dev\design-charter\dev\node_modules\bson\package.json
+8 verbose installManyTop reading scoped package data from C:\dev\design-charter\dev\node_modules\kerberos\package.json
+9 verbose installManyTop reading scoped package data from C:\dev\design-charter\dev\node_modules\mongo\package.json
+10 verbose installManyTop reading scoped package data from C:\dev\design-charter\dev\node_modules\mongodb-core\package.json
+11 verbose installManyTop reading scoped package data from C:\dev\design-charter\dev\node_modules\react\package.json
+12 verbose installManyTop reading scoped package data from C:\dev\design-charter\dev\node_modules\react-dom\package.json
+13 verbose installManyTop reading scoped package data from C:\dev\design-charter\dev\node_modules\react-webpack-node\package.json
+14 info package.json mongo@0.1.0 No repository field.
+15 info package.json mongo@0.1.0 No README data
+16 info package.json mongo@0.1.0 No license field.
+17 verbose readDependencies loading dependencies from C:\dev\design-charter\dev\package.json
+18 verbose install bson is installed as 0.4.23
+19 silly cache add args [ 'bson', null ]
+20 verbose cache add spec bson
+21 silly cache add parsed spec Result {
+21 silly cache add   raw: 'bson',
+21 silly cache add   scope: null,
+21 silly cache add   name: 'bson',
+21 silly cache add   rawSpec: '',
+21 silly cache add   spec: '*',
+21 silly cache add   type: 'range' }
+22 silly addNamed bson@*
+23 verbose addNamed "*" is a valid semver range for bson
+24 silly addNameRange { name: 'bson', range: '*', hasData: false }
+25 silly mapToRegistry name bson
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/bson
+29 verbose addNameRange registry:https://registry.npmjs.org/bson not in flight; fetching
+30 verbose request uri https://registry.npmjs.org/bson
+31 verbose request no auth needed
+32 info attempt registry request try #1 at 11:15:49 AM
+33 verbose request id b96cc679ff8d185b
+34 verbose etag "3PEMZ0AC3NMQAQEJRRTZS5D68"
+35 http request GET https://registry.npmjs.org/bson
+36 http 304 https://registry.npmjs.org/bson
+37 silly get cb [ 304,
+37 silly get   { date: 'Fri, 08 Apr 2016 15:15:49 GMT',
+37 silly get     via: '1.1 varnish, HTTPS/1.1 localhost.localdomain',
+37 silly get     'cache-control': 'max-age=300',
+37 silly get     etag: '"3PEMZ0AC3NMQAQEJRRTZS5D68"',
+37 silly get     age: '84',
+37 silly get     'x-served-by': 'cache-atl6241-ATL',
+37 silly get     'x-cache': 'HIT',
+37 silly get     'x-cache-hits': '1',
+37 silly get     'x-timer': 'S1460128549.750793,VS0,VE0',
+37 silly get     vary: 'Accept-Encoding',
+37 silly get     connection: 'close' } ]
+38 verbose etag https://registry.npmjs.org/bson from cache
+39 verbose get saving bson to C:\Users\bforsyth\AppData\Roaming\npm-cache\registry.npmjs.org\bson\.cache.json
+40 silly addNameRange number 2 { name: 'bson', range: '*', hasData: true }
+41 silly addNameRange versions [ 'bson',
+41 silly addNameRange   [ '0.0.1',
+41 silly addNameRange     '0.0.2',
+41 silly addNameRange     '0.0.3',
+41 silly addNameRange     '0.0.4',
+41 silly addNameRange     '0.0.5',
+41 silly addNameRange     '0.0.6',
+41 silly addNameRange     '0.0.7',
+41 silly addNameRange     '0.0.8',
+41 silly addNameRange     '0.0.9',
+41 silly addNameRange     '0.1.0',
+41 silly addNameRange     '0.1.1',
+41 silly addNameRange     '0.1.3',
+41 silly addNameRange     '0.1.4',
+41 silly addNameRange     '0.1.5',
+41 silly addNameRange     '0.1.6',
+41 silly addNameRange     '0.1.7',
+41 silly addNameRange     '0.1.8',
+41 silly addNameRange     '0.1.9',
+41 silly addNameRange     '0.2.0',
+41 silly addNameRange     '0.2.1',
+41 silly addNameRange     '0.2.2',
+41 silly addNameRange     '0.2.3',
+41 silly addNameRange     '0.2.4',
+41 silly addNameRange     '0.2.5',
+41 silly addNameRange     '0.2.6',
+41 silly addNameRange     '0.2.7',
+41 silly addNameRange     '0.2.8',
+41 silly addNameRange     '0.2.9',
+41 silly addNameRange     '0.2.10',
+41 silly addNameRange     '0.2.11',
+41 silly addNameRange     '0.2.12',
+41 silly addNameRange     '0.2.13',
+41 silly addNameRange     '0.2.14',
+41 silly addNameRange     '0.2.15',
+41 silly addNameRange     '0.2.16',
+41 silly addNameRange     '0.2.17',
+41 silly addNameRange     '0.2.18',
+41 silly addNameRange     '0.2.19',
+41 silly addNameRange     '0.2.20',
+41 silly addNameRange     '0.2.21',
+41 silly addNameRange     '0.3.0',
+41 silly addNameRange     '0.3.1',
+41 silly addNameRange     '0.3.2',
+41 silly addNameRange     '0.4.0',
+41 silly addNameRange     '0.4.1',
+41 silly addNameRange     '0.4.2',
+41 silly addNameRange     '0.4.3',
+41 silly addNameRange     '0.4.4',
+41 silly addNameRange     '0.4.5',
+41 silly addNameRange     '0.4.6',
+41 silly addNameRange     '0.4.7',
+41 silly addNameRange     '0.4.8',
+41 silly addNameRange     '0.2.22',
+41 silly addNameRange     '0.4.10',
+41 silly addNameRange     '0.4.12',
+41 silly addNameRange     '0.4.13',
+41 silly addNameRange     '0.4.14',
+41 silly addNameRange     '0.4.15',
+41 silly addNameRange     '0.4.16',
+41 silly addNameRange     '0.4.17',
+41 silly addNameRange     '0.4.18',
+41 silly addNameRange     '0.4.19',
+41 silly addNameRange     '0.4.20',
+41 silly addNameRange     '0.4.21',
+41 silly addNameRange     '0.4.22',
+41 silly addNameRange     '0.4.23' ] ]
+42 silly addNamed bson@0.4.23
+43 verbose addNamed "0.4.23" is a plain semver version for bson
+44 silly cache afterAdd bson@0.4.23
+45 verbose afterAdd C:\Users\bforsyth\AppData\Roaming\npm-cache\bson\0.4.23\package\package.json not in flight; writing
+46 verbose afterAdd C:\Users\bforsyth\AppData\Roaming\npm-cache\bson\0.4.23\package\package.json written
+47 silly install resolved [ { name: 'bson',
+47 silly install resolved     description: 'A bson parser for node.js and the browser',
+47 silly install resolved     keywords: [ 'mongodb', 'bson', 'parser' ],
+47 silly install resolved     version: '0.4.23',
+47 silly install resolved     author: { name: 'Christian Amor Kvalheim', email: 'christkv@gmail.com' },
+47 silly install resolved     contributors: [],
+47 silly install resolved     repository: { type: 'git', url: 'git://github.com/mongodb/js-bson.git' },
+47 silly install resolved     bugs: { url: 'https://github.com/mongodb/js-bson/issues' },
+47 silly install resolved     devDependencies:
+47 silly install resolved      { nodeunit: '0.9.0',
+47 silly install resolved        gleak: '0.2.3',
+47 silly install resolved        benchmark: '1.0.0',
+47 silly install resolved        colors: '1.1.0' },
+47 silly install resolved     config: { native: false },
+47 silly install resolved     main: './lib/bson/index',
+47 silly install resolved     directories: { lib: './lib/bson' },
+47 silly install resolved     engines: { node: '>=0.6.19' },
+47 silly install resolved     scripts: { test: 'nodeunit ./test/node' },
+47 silly install resolved     browser: 'lib/bson/bson.js',
+47 silly install resolved     license: 'Apache-2.0',
+47 silly install resolved     gitHead: '528680fa751300364f7a939258b621740613f8ae',
+47 silly install resolved     homepage: 'https://github.com/mongodb/js-bson',
+47 silly install resolved     _id: 'bson@0.4.23',
+47 silly install resolved     _shasum: 'e65a2e3c7507ffade4109bc7575a76e50f8da915',
+47 silly install resolved     _from: 'bson@*',
+47 silly install resolved     _npmVersion: '2.15.0',
+47 silly install resolved     _nodeVersion: '4.4.2',
+47 silly install resolved     _npmUser: { name: 'christkv', email: 'christkv@gmail.com' },
+47 silly install resolved     maintainers: [ [Object], [Object] ],
+47 silly install resolved     dist:
+47 silly install resolved      { shasum: 'e65a2e3c7507ffade4109bc7575a76e50f8da915',
+47 silly install resolved        tarball: 'https://registry.npmjs.org/bson/-/bson-0.4.23.tgz' },
+47 silly install resolved     _npmOperationalInternal:
+47 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+47 silly install resolved        tmp: 'tmp/bson-0.4.23.tgz_1460102555550_0.1291605734732002' },
+47 silly install resolved     _resolved: 'https://registry.npmjs.org/bson/-/bson-0.4.23.tgz',
+47 silly install resolved     readme: 'ERROR: No README data found!' } ]
+48 info install bson@0.4.23 into C:\dev\design-charter\dev
+49 info installOne bson@0.4.23
+50 verbose installOne of bson to C:\dev\design-charter\dev not in flight; installing
+51 verbose lock using C:\Users\bforsyth\AppData\Roaming\npm-cache\_locks\bson-fe0bcbe7ca9db254.lock for C:\dev\design-charter\dev\node_modules\bson
+52 silly install write writing bson 0.4.23 to C:\dev\design-charter\dev\node_modules\bson
+53 verbose unbuild node_modules\bson
+54 info preuninstall bson@0.4.23
+55 info uninstall bson@0.4.23
+56 verbose unbuild rmStuff bson@0.4.23 from C:\dev\design-charter\dev\node_modules
+57 info postuninstall bson@0.4.23
+58 silly gentlyRm C:\dev\design-charter\dev\node_modules\bson is being purged from base C:\dev\design-charter\dev
+59 verbose gentlyRm don't care about contents; nuking C:\dev\design-charter\dev\node_modules\bson
+60 silly vacuum-fs purging C:\dev\design-charter\dev\node_modules\bson
+61 silly vacuum-fs quitting because other entries in C:\dev\design-charter\dev\node_modules
+62 verbose tar unpack C:\Users\bforsyth\AppData\Roaming\npm-cache\bson\0.4.23\package.tgz
+63 verbose tar unpacking to C:\dev\design-charter\dev\node_modules\bson
+64 silly gentlyRm C:\dev\design-charter\dev\node_modules\bson is being purged
+65 verbose gentlyRm don't care about contents; nuking C:\dev\design-charter\dev\node_modules\bson
+66 silly gunzTarPerm modes [ '777', '666' ]
+67 silly gunzTarPerm extractEntry package.json
+68 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+69 silly gunzTarPerm extractEntry README.md
+70 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+71 silly gunzTarPerm extractEntry LICENSE
+72 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+73 silly gunzTarPerm extractEntry deserializer_bak.js
+74 silly gunzTarPerm modified mode [ 'deserializer_bak.js', 420, 438 ]
+75 silly gunzTarPerm extractEntry bower.json
+76 silly gunzTarPerm modified mode [ 'bower.json', 420, 438 ]
+77 silly gunzTarPerm extractEntry alternate_parsers/bson.js
+78 silly gunzTarPerm modified mode [ 'alternate_parsers/bson.js', 420, 438 ]
+79 silly gunzTarPerm extractEntry alternate_parsers/faster_bson.js
+80 silly gunzTarPerm modified mode [ 'alternate_parsers/faster_bson.js', 420, 438 ]
+81 silly gunzTarPerm extractEntry HISTORY
+82 silly gunzTarPerm modified mode [ 'HISTORY', 420, 438 ]
+83 silly gunzTarPerm extractEntry browser_build/package.json
+84 silly gunzTarPerm modified mode [ 'browser_build/package.json', 420, 438 ]
+85 silly gunzTarPerm extractEntry browser_build/bson.js
+86 silly gunzTarPerm modified mode [ 'browser_build/bson.js', 420, 438 ]
+87 silly gunzTarPerm extractEntry lib/bson/binary.js
+88 silly gunzTarPerm modified mode [ 'lib/bson/binary.js', 420, 438 ]
+89 silly gunzTarPerm extractEntry lib/bson/db_ref.js
+90 silly gunzTarPerm modified mode [ 'lib/bson/db_ref.js', 420, 438 ]
+91 silly gunzTarPerm extractEntry lib/bson/double.js
+92 silly gunzTarPerm modified mode [ 'lib/bson/double.js', 420, 438 ]
+93 silly gunzTarPerm extractEntry lib/bson/float_parser.js
+94 silly gunzTarPerm modified mode [ 'lib/bson/float_parser.js', 420, 438 ]
+95 silly gunzTarPerm extractEntry lib/bson/index.js
+96 silly gunzTarPerm modified mode [ 'lib/bson/index.js', 420, 438 ]
+97 silly gunzTarPerm extractEntry lib/bson/code.js
+98 silly gunzTarPerm modified mode [ 'lib/bson/code.js', 420, 438 ]
+99 silly gunzTarPerm extractEntry lib/bson/map.js
+100 silly gunzTarPerm modified mode [ 'lib/bson/map.js', 420, 438 ]
+101 silly gunzTarPerm extractEntry lib/bson/max_key.js
+102 silly gunzTarPerm modified mode [ 'lib/bson/max_key.js', 420, 438 ]
+103 silly gunzTarPerm extractEntry lib/bson/min_key.js
+104 silly gunzTarPerm modified mode [ 'lib/bson/min_key.js', 420, 438 ]
+105 silly gunzTarPerm extractEntry lib/bson/objectid.js
+106 silly gunzTarPerm modified mode [ 'lib/bson/objectid.js', 420, 438 ]
+107 silly gunzTarPerm extractEntry lib/bson/symbol.js
+108 silly gunzTarPerm modified mode [ 'lib/bson/symbol.js', 420, 438 ]
+109 silly gunzTarPerm extractEntry lib/bson/bson.js
+110 silly gunzTarPerm modified mode [ 'lib/bson/bson.js', 420, 438 ]
+111 silly gunzTarPerm extractEntry lib/bson/regexp.js
+112 silly gunzTarPerm modified mode [ 'lib/bson/regexp.js', 420, 438 ]
+113 silly gunzTarPerm extractEntry lib/bson/binary_parser.js
+114 silly gunzTarPerm modified mode [ 'lib/bson/binary_parser.js', 420, 438 ]
+115 silly gunzTarPerm extractEntry lib/bson/timestamp.js
+116 silly gunzTarPerm modified mode [ 'lib/bson/timestamp.js', 420, 438 ]
+117 silly gunzTarPerm extractEntry lib/bson/long.js
+118 silly gunzTarPerm modified mode [ 'lib/bson/long.js', 420, 438 ]
+119 silly gunzTarPerm extractEntry lib/bson/parser/calculate_size.js
+120 silly gunzTarPerm modified mode [ 'lib/bson/parser/calculate_size.js', 420, 438 ]
+121 silly gunzTarPerm extractEntry lib/bson/parser/deserializer.js
+122 silly gunzTarPerm modified mode [ 'lib/bson/parser/deserializer.js', 420, 438 ]
+123 silly gunzTarPerm extractEntry lib/bson/parser/serializer.js
+124 silly gunzTarPerm modified mode [ 'lib/bson/parser/serializer.js', 420, 438 ]
+125 silly gunzTarPerm extractEntry tools/gleak.js
+126 silly gunzTarPerm modified mode [ 'tools/gleak.js', 420, 438 ]
+127 verbose write writing to C:\dev\design-charter\dev\node_modules\bson\package.json
+128 info preinstall bson@0.4.23
+129 verbose readDependencies loading dependencies from C:\dev\design-charter\dev\node_modules\bson\package.json
+130 verbose readDependencies loading dependencies from C:\dev\design-charter\dev\node_modules\bson\package.json
+131 silly install resolved []
+132 verbose about to build C:\dev\design-charter\dev\node_modules\bson
+133 info build C:\dev\design-charter\dev\node_modules\bson
+134 info linkStuff bson@0.4.23
+135 silly linkStuff bson@0.4.23 has C:\dev\design-charter\dev\node_modules as its parent node_modules
+136 verbose linkBins bson@0.4.23
+137 verbose linkMans bson@0.4.23
+138 verbose rebuildBundles bson@0.4.23
+139 info install bson@0.4.23
+140 info postinstall bson@0.4.23
+141 verbose unlock done using C:\Users\bforsyth\AppData\Roaming\npm-cache\_locks\bson-fe0bcbe7ca9db254.lock for C:\dev\design-charter\dev\node_modules\bson
+142 verbose validateInstall loading C:\dev\design-charter\dev\package.json for validation
+143 verbose stack Error: The package eslint@2.7.0 does not satisfy its siblings' peerDependencies requirements!
+143 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:125:32
+143 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:268:7
+143 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:142:5
+143 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+143 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+143 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+143 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+143 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+143 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+143 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+144 verbose cwd C:\dev\design-charter\dev\Reef\reef
+145 error Windows_NT 6.1.7601
+146 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "bson"
+147 error node v4.1.1
+148 error npm  v2.14.4
+149 error code EPEERINVALID
+150 error peerinvalid The package eslint@2.7.0 does not satisfy its siblings' peerDependencies requirements!
+150 error peerinvalid Peer babel-eslint@5.0.4 wants eslint@<2.3.0
+150 error peerinvalid Peer eslint-config-airbnb@6.2.0 wants eslint@^2.4.0
+151 verbose exit [ 1, true ]
